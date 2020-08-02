@@ -3,7 +3,7 @@
 ###################
 
 Below are the detailes REST API CRUD operation
-
+###Find DB file in Root directory task_db.
 *******************
 API endpoints
 *******************
@@ -33,5 +33,9 @@ API endpoints
 
 ![Alt text](/Images/show-customer.png)
 
+*******************
+How to access API's
+*******************
 
+-First create token and pass it in header as "Token" to access the other API's
 
