@@ -11,6 +11,8 @@ API endpoints
 - For new token
 * GET http://localhost/task/create-token
 
+![Alt text](/Images/create-token)
+
 - To create new customer 
 * POST http://localhost/task/create-customer
 
