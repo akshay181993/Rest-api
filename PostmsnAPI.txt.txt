@@ -1,0 +1,36 @@
+REST API DETAILS.
+
+To access api's follow below instructions.
+
+1. create token from create-token api.
+2. copy that token and paste in header section of postman while accessing other api's.
+3. when you create or update new customer pass admin & country id's as given below
+ - Country
+	-India(1)
+	-Japan(2)
+	-Canada(3)
+	-Italy(4)
+ - Admin
+	-Admin1(1)
+	-Admin2(2)
+4.Below are list of all api's
+
+-create token api
+Method - GET
+URL - http://localhost/task/create-token
+
+-create cusomer api
+Method - POST
+URL - http://localhost/task/create-customer
+
+-delete customer
+Method - POST
+URL - http://localhost/task/delete-customers
+
+-update customer
+Method - POST
+URL - http://localhost/task/update-customer
+
+-show all customers
+Method - GET
+URL - http://localhost/task/show-customers
